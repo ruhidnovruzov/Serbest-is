@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;
+    background: #212529;
+}
+
+nav .navbar {
+    margin: auto;
+    display: flex;
+    margin-left: 10px;
+}
+
+nav .navbar .logo a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+nav .navbar .nav-links .links {
+    display: flex;
+}
+
+nav .navbar .nav-links .links li {
+    list-style: none;
+    display: flex;
+    white-space: nowrap;
+    padding-left: 20px;
+}
+
+nav .navbar .nav-links .links {
+    margin-top: 8px;
+    margin-left: 1150px;
+}
+
+nav .navbar .nav-links .links li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo {
+    margin-top: 5px;
+    display: flex;
+    position: fixed;
+    margin-left: 5px;
+}
+
+.box {
+    border: 1px solid black;
+    width: 100%;
+    height: 440px;
+    background-color: #212529;
+}
+
+.box h1 {
+    margin-top: 120px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+}
+
+.box p {
+    color: rgb(210, 209, 209);
+    position: absolute;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.box .buttons {
+    position: absolute;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.box .buttons button {
+    height: 40px;
+    width: 120px;
+    margin-top: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box .buttons .get {
+    margin-right: 15px;
+}
+
+.box .buttons a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.get {
+    border-style: none;
+    background-color: #0D6EFD;
+    border-radius: 7px;
+}
+
+.learn {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1.5px solid white;
+    border-radius: 7px;
+}
+
+.get:hover {
+    background-color: #1063df;
+}
+
+.learn:hover {
+    background-color: #111316;
+}
+
+nav .navbar .nav-links .links li a:hover {
+    color: rgb(203, 203, 203);
+}
+
+.box1 {
+    margin-top: 50px;
+    width: calc(100% / 3);
+    height: 250px;
+    display: inline-block;
+    position: relative;
+}
+
+.box2 {
+    margin-top: 50px;
+    width: calc(100% / 3);
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    position: relative;
+}
+
+.box3 {
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+}
+
+i {
+    position: absolute;
+    font-size: 30px;
+    margin: 20px 0 0 30px;
+    color: white;
+    background-color: #0D6EFD;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.box1 h1 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.box2 h1 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.box3 h1 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.box1 p {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+    color: rgb(180, 177, 177);
+}
+
+.box2 p {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+    color: rgb(180, 177, 177);
+    text-justify: inter-cluster;
+}
+
+.box3 p {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+    color: rgb(180, 177, 177);
+}
+
+.box3 a {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #0D6EFD;
+    font-weight: 500;
+}
+
+.box2 a {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #0D6EFD;
+    font-weight: 500;
+}
+
+.box1 a {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #0D6EFD;
+    font-weight: 500;
+}
+
+.box3 a i {
+    font-size: 15px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0D6EFD;
+}
+
+.box2 a i {
+    font-size: 15px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0D6EFD;
+}
+
+.box1 a i {
+    font-size: 15px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0D6EFD;
+}
+
+.foot {
+    width: 100%;
+    height: 200px;
+    border-top: 2px solid rgb(180, 177, 177);
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.foot h1 {
+    margin-top: 80px;
+}
